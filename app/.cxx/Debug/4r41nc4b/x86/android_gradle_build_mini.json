@@ -1,0 +1,161 @@
+{
+  "buildFiles": [
+    "E:\\test\\tt\\sdl2-android-example\\main\\CMakeLists.txt",
+    "E:\\test\\tt\\sdl2-android-example\\SDL2\\CMakeLists.txt",
+    "E:\\test\\tt\\sdl2-android-example\\SDL2_png\\CMakeLists.txt",
+    "E:\\test\\tt\\sdl2-android-example\\SDL2_gfx\\CMakeLists.txt",
+    "E:\\test\\tt\\sdl2-android-example\\SDL2_ttf\\CMakeLists.txt",
+    "E:\\test\\tt\\sdl2-android-example\\freetype\\CMakeLists.txt",
+    "E:\\test\\tt\\sdl2-android-example\\SDL2_jpeg\\CMakeLists.txt",
+    "E:\\test\\tt\\sdl2-android-example\\SDL2_image\\CMakeLists.txt",
+    "E:\\test\\tt\\sdl2-android-example\\SDL2_mixer\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\jinid\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\test\\tt\\sdl2-android-example\\app\\.cxx\\Debug\\4r41nc4b\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\jinid\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\test\\tt\\sdl2-android-example\\app\\.cxx\\Debug\\4r41nc4b\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "SDL2-Debug-x86": {
+      "artifactName": "SDL2",
+      "buildCommandComponents": [
+        "C:\\Users\\jinid\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\test\\tt\\sdl2-android-example\\app\\.cxx\\Debug\\4r41nc4b\\x86",
+        "SDL2"
+      ],
+      "abi": "x86",
+      "output": "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2.so",
+      "runtimeFiles": []
+    },
+    "SDL2_image-Debug-x86": {
+      "artifactName": "SDL2_image",
+      "buildCommandComponents": [
+        "C:\\Users\\jinid\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\test\\tt\\sdl2-android-example\\app\\.cxx\\Debug\\4r41nc4b\\x86",
+        "SDL2_image"
+      ],
+      "abi": "x86",
+      "output": "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_image.so",
+      "runtimeFiles": [
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_png.so",
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_jpeg.so",
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2.so"
+      ]
+    },
+    "SDL2_png-Debug-x86": {
+      "artifactName": "SDL2_png",
+      "buildCommandComponents": [
+        "C:\\Users\\jinid\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\test\\tt\\sdl2-android-example\\app\\.cxx\\Debug\\4r41nc4b\\x86",
+        "SDL2_png"
+      ],
+      "abi": "x86",
+      "output": "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_png.so",
+      "runtimeFiles": [
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2.so"
+      ]
+    },
+    "main-lib-Debug-x86": {
+      "artifactName": "main-lib",
+      "buildCommandComponents": [
+        "C:\\Users\\jinid\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\test\\tt\\sdl2-android-example\\app\\.cxx\\Debug\\4r41nc4b\\x86",
+        "main-lib"
+      ],
+      "abi": "x86",
+      "output": "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libmain-lib.so",
+      "runtimeFiles": [
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_image.so",
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_gfx.so",
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_mixer.so",
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_ttf.so",
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_png.so",
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_jpeg.so",
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2.so",
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libfreetype.so"
+      ]
+    },
+    "SDL2_ttf-Debug-x86": {
+      "artifactName": "SDL2_ttf",
+      "buildCommandComponents": [
+        "C:\\Users\\jinid\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\test\\tt\\sdl2-android-example\\app\\.cxx\\Debug\\4r41nc4b\\x86",
+        "SDL2_ttf"
+      ],
+      "abi": "x86",
+      "output": "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_ttf.so",
+      "runtimeFiles": [
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libfreetype.so",
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2.so"
+      ]
+    },
+    "SDL2_mixer-Debug-x86": {
+      "artifactName": "SDL2_mixer",
+      "buildCommandComponents": [
+        "C:\\Users\\jinid\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\test\\tt\\sdl2-android-example\\app\\.cxx\\Debug\\4r41nc4b\\x86",
+        "SDL2_mixer"
+      ],
+      "abi": "x86",
+      "output": "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_mixer.so",
+      "runtimeFiles": [
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2.so"
+      ]
+    },
+    "SDL2_gfx-Debug-x86": {
+      "artifactName": "SDL2_gfx",
+      "buildCommandComponents": [
+        "C:\\Users\\jinid\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\test\\tt\\sdl2-android-example\\app\\.cxx\\Debug\\4r41nc4b\\x86",
+        "SDL2_gfx"
+      ],
+      "abi": "x86",
+      "output": "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_gfx.so",
+      "runtimeFiles": [
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2.so"
+      ]
+    },
+    "freetype-Debug-x86": {
+      "artifactName": "freetype",
+      "buildCommandComponents": [
+        "C:\\Users\\jinid\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\test\\tt\\sdl2-android-example\\app\\.cxx\\Debug\\4r41nc4b\\x86",
+        "freetype"
+      ],
+      "abi": "x86",
+      "output": "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libfreetype.so",
+      "runtimeFiles": []
+    },
+    "SDL2_jpeg-Debug-x86": {
+      "artifactName": "SDL2_jpeg",
+      "buildCommandComponents": [
+        "C:\\Users\\jinid\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\test\\tt\\sdl2-android-example\\app\\.cxx\\Debug\\4r41nc4b\\x86",
+        "SDL2_jpeg"
+      ],
+      "abi": "x86",
+      "output": "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2_jpeg.so",
+      "runtimeFiles": [
+        "E:\\test\\tt\\sdl2-android-example\\app\\build\\intermediates\\cxx\\Debug\\4r41nc4b\\obj\\x86\\libSDL2.so"
+      ]
+    }
+  }
+}

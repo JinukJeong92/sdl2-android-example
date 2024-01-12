@@ -1,0 +1,9 @@
+E:\test\tt\sdl2-android-example\main\CMakeLists.txt
+E:\test\tt\sdl2-android-example\SDL2\CMakeLists.txt
+E:\test\tt\sdl2-android-example\SDL2_png\CMakeLists.txt
+E:\test\tt\sdl2-android-example\SDL2_gfx\CMakeLists.txt
+E:\test\tt\sdl2-android-example\SDL2_ttf\CMakeLists.txt
+E:\test\tt\sdl2-android-example\freetype\CMakeLists.txt
+E:\test\tt\sdl2-android-example\SDL2_jpeg\CMakeLists.txt
+E:\test\tt\sdl2-android-example\SDL2_image\CMakeLists.txt
+E:\test\tt\sdl2-android-example\SDL2_mixer\CMakeLists.txt
